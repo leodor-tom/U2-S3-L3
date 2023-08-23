@@ -43,7 +43,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
 
       li.innerHTML = `
             <h4>${book.title}</h4>
-            <p>>${book.price}</p>
+            <p>${book.price}</p>
             `;
       return ul.appendChild(li);
     };
